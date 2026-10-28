@@ -1,0 +1,58 @@
+import { Book } from '../types/book';
+
+export const SAMPLE_BOOKS: Book[] = [
+  {
+    id: '1',
+    title: 'Giải tích 1',
+    author: 'Nguyễn Đình Trí',
+    category: 'Giáo trình',
+    year: 2018,
+    quantity: 10,
+    borrowed: 3,
+  },
+  {
+    id: '2',
+    title: 'Số đỏ',
+    author: 'Vũ Trọng Phụng',
+    category: 'Tiểu thuyết',
+    year: 1936,
+    quantity: 4,
+    borrowed: 4,
+  },
+  {
+    id: '3',
+    title: 'Lược sử thời gian',
+    author: 'Stephen Hawking',
+    category: 'Khoa học',
+    year: 1988,
+    quantity: 5,
+    borrowed: 1,
+  },
+  {
+    id: '4',
+    title: 'Dế Mèn phiêu lưu ký',
+    author: 'Tô Hoài',
+    category: 'Thiếu nhi',
+    year: 1941,
+    quantity: 8,
+    borrowed: 0,
+  },
+  {
+    id: '5',
+    title: 'Cấu trúc dữ liệu và giải thuật',
+    author: 'Đỗ Xuân Lôi',
+    category: 'Giáo trình',
+    year: 2010,
+    quantity: 6,
+    borrowed: 2,
+  },
+  {
+    id: '6',
+    title: 'Tắt đèn',
+    author: 'Ngô Tất Tố',
+    category: 'Tiểu thuyết',
+    year: 1939,
+    quantity: 3,
+    borrowed: 0,
+  },
+];
